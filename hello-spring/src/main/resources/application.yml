@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://10.20.15.50:30543/postgres
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: Meepdlxj#3
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        default_schema: public
